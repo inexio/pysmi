@@ -12,6 +12,12 @@ This tool is designed to turn ASN.1 MIBs into various formats. As of this moment
 JSON and [pysnmp](https://github.com/etingof/pysnmp) modules can be generated
 from ASN.1 MIBs.
 
+Why this fork?
+--------------
+[Original project](https://github.com/etingof/pysmi) by [Ilya Etingof](https://github.com/etingof) seems not to be continued anymore.
+Because of that, we try to maintain / enhance SNMP simulator. 
+
+
 Features
 --------
 
@@ -194,6 +200,10 @@ You could `pip install pysmi` or download it from [PyPI](https://pypi.org/projec
 If something does not work as expected,
 [open an issue](https://github.com/etingof/pysmi/issues) at GitHub or
 post your question [on Stack Overflow](http://stackoverflow.com/questions/ask).
+
+
+If you want to contact us, please mail to the [Thola Team](mailto:snmplabs@thola.io)
+
 
 Copyright (c) 2015-2020, [Ilya Etingof](mailto:etingof@gmail.com).
 All rights reserved.
