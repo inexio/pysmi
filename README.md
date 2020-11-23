@@ -15,7 +15,7 @@ from ASN.1 MIBs.
 Why this fork?
 --------------
 [Original project](https://github.com/etingof/pysmi) by [Ilya Etingof](https://github.com/etingof) seems not to be continued anymore.
-Because of that, we try to maintain / enhance SNMP simulator. 
+Because of that, we try to maintain / enhance SNMP MIB parser.
 
 
 Features
