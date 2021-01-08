@@ -37,3 +37,4 @@ jobs:
       run: |
         PYTHONPATH=.:$PYTHONPATH python tests/__main__.py
         PYTHONPATH=.:$PYTHONPATH coverage run --omit=*test* tests/__main__.py
+        codecov
