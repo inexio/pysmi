@@ -29,12 +29,13 @@ jobs:
        . ./venv/bin/activate  
        python --version
        pip --version
-       pip install -r requirements.txt -r devel-requirements.txt
        pip install codecov
+       pip install coverage
+       pip install -r requirements.txt -r devel-requirements.txt
        pip install -e .
 
     - name: Test with pytest
       run: |
         PYTHONPATH=.:$PYTHONPATH python tests/__main__.py
         PYTHONPATH=.:$PYTHONPATH coverage run --omit=*test* tests/__main__.py
-        codecov
+
